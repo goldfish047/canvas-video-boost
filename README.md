@@ -1,10 +1,27 @@
-# Getting Started With Google Chrome Extensions (Hello World)
+<p align="center">
+  <img src="icon.png" alt="Canvas Video Boost Logo" width="300" />
+</p>
 
-This example demonstrates how to create a simple "Hello World" Chrome Extension.
-For more details, visit the [official tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world).
+<h1 align="center">📚 Canvas Video Boost Extension 🔌</h1>
 
-## Running This Extension
+<p align="center">
+  ⏩ Speed up lecture videos by holding the left mouse button.
+</p>
+<br/>
 
-1. Clone this repository.
-2. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
-3. Click the extension icon in the Chrome toolbar, then select the "Hello Extensions" extension. A popup will appear displaying the text "Hello Extensions".
+## 🚀 Installation
+1. Downlaod extension.zip from [here](https://github.com/goldfish047/canvas-video-boost/archive/refs/heads/main.zip)
+2. Unzip
+3. Go to chrome://extensions (chrome)
+4. Go to chrome://extensions in your browser
+5. Click the Load unpacked button
+6. Select the folder
+7. Done
+
+
+## ⚡ Features
+👆 Hold left-click to speed up video playback (default: 2×)
+<br/>
+⚠ Speed value (0.1x–16x).
+<br/>
+
