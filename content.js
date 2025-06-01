@@ -40,13 +40,13 @@ function applySpeedControls() {
     // Style popup container
     Object.assign(popup.style, {
       position: 'absolute',
-      top: '10px',
-      right: '10px',
-      padding: '8px 12px',
+      top: '5px',
+      right: '5px',
+      padding: '3px 5px',
       background: 'rgba(0, 0, 0, 0.75)',
       color: 'white',
       borderRadius: '6px',
-      fontSize: '16px',
+      fontSize: '12px',
       zIndex: '999999',
       display: 'block',
       pointerEvents: 'auto',

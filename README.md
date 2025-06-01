@@ -18,10 +18,11 @@
 6. Select the folder
 7. Done
 
-
 ## ⚡ Features
-👆 Hold left-click to speed up video playback (default: 2×)
-<br/>
-⚠ Speed value (0.1x–16x).
-<br/>
+👆 Hold left-click to speed up video playback (default: 2×)<br/>
+⚠ Speed value (0.1x–16x) <br/><br/>
 
+## 💡 Reminder
+Only works for (my) school canvas <br/>
+In ``manifest.json`` change ``https://stream.sfu.ca/*`` to ``<all_urls>`` or whatever you want <br/>
+Youtube and twitter(x) is disable cuz buggy
