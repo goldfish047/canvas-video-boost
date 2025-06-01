@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" alt="Canvas Video Boost Logo" width="300" />
+  <img src="icons/icon.png" alt="Canvas Video Boost Logo" width="300" />
 </p>
 
 <h1 align="center">📚 Canvas Video Boost Extension 🔌</h1>
