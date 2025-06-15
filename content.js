@@ -127,14 +127,17 @@ function applySpeedControls() {
     // Handle fullscreen placement
     const movePopupToFullscreen = () => {
       const fsElement = document.fullscreenElement;
-      if (fsElement) {
+      if (fsElement && !fsElement.contains(popup)) {
+        if (popup.parentElement) popup.parentElement.removeChild(popup);
         fsElement.appendChild(popup);
         popup.style.position = 'fixed';
-      } else {
+      } else if (!fsElement && !document.body.contains(popup)) {
+        if (popup.parentElement) popup.parentElement.removeChild(popup);
         document.body.appendChild(popup);
         popup.style.position = 'absolute';
       }
     };
+
 
     // Build the popup
     popup.appendChild(popupLabel);
